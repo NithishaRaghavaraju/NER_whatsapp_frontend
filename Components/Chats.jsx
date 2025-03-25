@@ -142,7 +142,7 @@ const Chats = ({ showChat, setShowChat }) => {
     setIsLoading(true);
 
     try {
-      const response = await fetch("http://localhost:8000/api/home", {
+      const response = await fetch("https://nithisha2201-whatsappner.hf.space/api/home", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
