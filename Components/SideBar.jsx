@@ -1,5 +1,5 @@
 import Image from "next/image";
-import WhatsAppicon from "../public/assets/images/whatsapp.png";
+import WhatsAppicon from "@/public/assets/images/whatsapp.png";
 
 const Sidebar = ({ setShowChat }) => {
   return (
