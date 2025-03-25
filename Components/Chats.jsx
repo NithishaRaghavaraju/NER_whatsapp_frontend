@@ -1,13 +1,13 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
-import Search from "@/public/assets/images/search.png";
-import Close from "@/public/assets/images/close.png";
-import NewIcon from "@/public/assets/images/ner-icon.png";
-import WhatsAppicon from "@/public/assets/images/whatsapp.png";
-import Loading from "@/public/assets/images/typing.gif";
-import down from "@/public/assets/images/down.png";
-import up from "@/public/assets/images/up.png";
+import Search from "../public/assets/images/search.png";
+import Close from "../public/assets/images/close.png";
+import NewIcon from "../public/assets/images/ner-icon.png";
+import WhatsAppicon from "../public/assets/images/whatsapp.png";
+import Loading from "../public/assets/images/typing.gif";
+import down from "../public/assets/images/down.png";
+import up from "../public/assets/images/up.png";
 
 const Chats = ({ showChat, setShowChat }) => {
   const [searchActive, setSearchActive] = useState(false);
