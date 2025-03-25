@@ -1,7 +1,7 @@
 "use client";
 import { useState,useEffect } from "react";
-import Chats from "../components/Chats.jsx";
-import Sidebar from "../components/Sidebar.jsx";
+import Chats from "@/Components/Chats.jsx";
+import Sidebar from "@/Components/Sidebar.jsx";
 
 const Page = () => {
   const [showChat, setShowChat] = useState(false);
